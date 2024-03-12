@@ -1,0 +1,233 @@
+.landing {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 4.2294rem);
+    text-align: center;
+    overflow: hidden;
+    background: url(../../../public/images/landing2.jpg) center;
+    background-size: cover;
+    background-color: var(--main-bgColor);
+    background-blend-mode: overlay;
+    position: relative;
+    z-index: -1;
+}
+
+.textInfo {
+    width: calc(100% - 15rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.headText {
+    color: var(--main-forColor);
+    font-size: 2.6rem;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 0 auto;
+}
+
+.description {
+    color: var(--paragraph-forColor);
+    font-family: Poppins;
+    font-size: 1.1rem;
+
+    font-weight: 500;
+    line-height: 2rem;
+    text-transform: capitalize;
+
+}
+
+.flowerContainer,
+.womanContainer {
+    position: absolute;
+    z-index: -1;
+}
+
+.flowerContainer {
+    width: 13.75rem;
+    height: 19rem;
+    top: 50px;
+    left: 30px;
+    animation: move infinite alternate 2s ease-in-out;
+}
+
+.womanContainer {
+    position: absolute;
+    width: 13.1875rem;
+    height: 19.0625rem;
+    right: 2rem;
+    bottom: 100px;
+    animation: move infinite alternate 2s ease-in-out;
+}
+
+@keyframes move {
+
+    0% {
+        transform: translateY(-30px);
+    }
+
+    100% {
+        transform: translateY(0px);
+
+    }
+}
+
+@media (min-width: 768px) and (max-width:1185px) {
+    .textInfo {
+
+        width: 70%
+    }
+
+    .headText {
+        font-size: 2.5rem;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+
+    .flowerContainer,
+    .womanContainer {
+        width: 8rem;
+        height: 12rem;
+    }
+
+    .flowerContainer {
+        left: 0rem;
+        top: 3rem;
+    }
+
+    .womanContainer {
+        right: 0.5rem;
+        bottom: 3.5rem;
+    }
+
+
+
+}
+
+@media (max-width: 767px) {
+    .textInfo {
+        text-align: right;
+        padding: 0;
+        width: calc(100% - 2rem);
+        align-items: flex-end;
+
+    }
+
+    .headText {
+        font-size: 2.125rem;
+        margin: 0;
+        font-weight: 700;
+
+    }
+
+    .description {
+        font-size: 0.875rem;
+
+        font-weight: 500;
+
+    }
+
+    .flowerContainer,
+    .womanContainer {
+        width: 7.4375rem;
+        height: 10.3125rem;
+    }
+
+
+
+
+    .flowerContainer {
+        top: 73%;
+        left: -0.1rem;
+    }
+
+    .womanContainer {
+
+        top: 0.75rem;
+        left: 76%;
+    }
+
+
+}
+
+@media(max-width:478px) {
+    .guide {
+        display: block;
+    }
+}
+
+
+
+@media (min-width:1920) {
+
+    /* hi-res laptops and desktops */
+    .landing {
+        position: relative;
+        width: calc(100% - 20.64rem);
+        top: 7.44rem;
+        left: 15.2rem;
+        padding: 6.69rem 19.1rem 9.75rem 15.8rem;
+    }
+
+    .flowerContainer {
+        position: absolute;
+        left: 0;
+        bottom: 11.2rem;
+        width: 15.75rem;
+        height: 21rem;
+        flex-shrink: 0;
+        stroke-width: 2px;
+        stroke: #A1A7B8;
+    }
+
+    .womanContainer {
+        position: absolute;
+        top: 11.1rem;
+        left: 0rem;
+        width: 15.1875rem;
+        height: 21.0625rem;
+    }
+
+    .textInfo {
+        display: flex;
+        width: 64.4375rem;
+        height: 15.75rem;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+    }
+
+    .headText {
+        color: var(--main-forColor);
+        text-align: center;
+        font-size: 3.5rem;
+
+        font-weight: 700;
+
+        text-transform: capitalize;
+    }
+
+    .description {
+        color: var(--paragraph-forColor);
+        text-align: center;
+        font-size: 1.25rem;
+
+        font-weight: 500;
+        line-height: 2rem;
+        text-transform: capitalize;
+    }
+
+
+
+}

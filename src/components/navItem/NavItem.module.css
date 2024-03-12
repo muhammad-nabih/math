@@ -1,0 +1,13 @@
+.item {
+    color: var(--link-forColor);
+    font-size: 1.125rem;
+   font-weight: 500;
+    text-transform: capitalize;
+    transition: var(--main-transition);
+    cursor: pointer;
+}
+
+ul li.item:hover,
+ul li.item.active {
+    color: var(--link-hoverColor)
+}

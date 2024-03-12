@@ -2,32 +2,57 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+:root {
+  /* All Color  */
+  --main-bgColor: #111;
+  --main-forColor: #fff;
+  --link-forColor: #FFFFFF99;
+  --link-hoverColor: #f0b544;
+  --footer-forColor: #FFFFFF4D;
+  --footer-bgColor: #01E0;
+--paragraph-forColor: #FFFFFFCC;
+  --card-bgColor: #FFFFFF;
+  --cardDetails-forColor: #14224D;
+  --borderColorTopic: rgba(20, 34, 77, 0.20);
+  --colorTopic: rgba(20, 34, 77, 0.80);
+  --by-color: rgba(20, 34, 77, 0.40);
+  --seeAll-color: #3C69D6;
+  --asideBg: #292929;
+  --asideCoverBg: rgba(0, 0, 5, 0.80);
+  --baseColorSketelon: #3C486B;
+  --highlightColorSketelon: #516191;
+  /* All Size For BorderRadius  */
+  --radiusCard: 0.5rem;
+  --RadiusTopic: 6.25rem;
+  /* Transition */
+  --main-transition: .3s;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: var(--main-bgColor);
+  color: var(--main-forColor);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+* {}
+
+::selection {
+  color: #e4e6e5;
+  background-color: #c89c64;
+}
+
+/* WebKit */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e5e5e5;
+  box-shadow: inset -1px -1px 3.5px rgba(0, 0, 0, 0.766);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #14224d;
+  border-radius: 5px;
 }
