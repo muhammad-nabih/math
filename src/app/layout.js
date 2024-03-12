@@ -1,7 +1,7 @@
 import { Noto_Sans_Arabic } from "next/font/google";
 import "./globals.css";
 // import All Components
-import Navbar from "@/components/Navbar/Navbar";
+import Navbar from "@/components/navbar/Navbar";
 
 import LinksProvider from "@/contexts/linksContexts/LinksContext";
 // Context Provider import

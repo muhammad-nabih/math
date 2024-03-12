@@ -59,7 +59,7 @@ export default function Landing() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
-          className="text-xl text-gray-400 font-bold"
+          className="text-xl text-gray-400 leading-8 font-bold"
         >
           يُعدّ منهج الرياضيات للصف الثاني الابتدائي رحلة ممتعة تهدف إلى تنمية
           مهارات الطلاب في التفكير المنطقي وحل المشكلات. يُغطّي المنهج مجموعة
