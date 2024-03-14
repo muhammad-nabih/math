@@ -1,0 +1,7 @@
+.body {
+    background-image: url(../../../public/images/main.png);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.538);
+    background-blend-mode: overlay;
+}

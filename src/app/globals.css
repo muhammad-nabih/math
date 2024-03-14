@@ -2,16 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
   /* All Color  */
   --main-bgColor: #111;
   --main-forColor: #fff;
   --link-forColor: #FFFFFF99;
-  --link-hoverColor: #f0b544;
-  --footer-forColor: #FFFFFF4D;
+  --link-hoverColor: #18d6f5;
+  --footer-forColor: #0c0a0a4d;
   --footer-bgColor: #01E0;
---paragraph-forColor: #FFFFFFCC;
+  --paragraph-forColor: #FFFFFFCC;
   --card-bgColor: #FFFFFF;
   --cardDetails-forColor: #14224D;
   --borderColorTopic: rgba(20, 34, 77, 0.20);
@@ -32,9 +31,11 @@
 body {
   background-color: var(--main-bgColor);
   color: var(--main-forColor);
+  direction: rtl;
+
 }
 
-* {}
+
 
 ::selection {
   color: #e4e6e5;
@@ -53,6 +54,6 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #14224d;
+  background-color: #3b82f6;
   border-radius: 5px;
 }

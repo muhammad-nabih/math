@@ -17,9 +17,10 @@ export default function Landing() {
 
     typewriter
       .typeString(
-        'اهلا بكم في مقرر الرياضيات للصف <strong class="text-yellow-400">الثاني الابتدائي</strong>'
+        `اهلا في مقرر 
+    <span class='text_blue_400'> العلوم</span> للصف الرابع الابتدائي`
       )
-      .pauseFor(1000) // إيقاف لمدة ثانية
+      .pauseFor(2000) // إيقاف لمدة ثانية
       .deleteAll() // مسح النص
       .start();
 
@@ -52,14 +53,14 @@ export default function Landing() {
       {/* Start Text Info Section */}
       <article className={styles.textInfo}>
         <h1
-          className="text-3xl font-bold"
+          className={`${styles.headText}`}
           ref={typeWriterRef} // إضافة المرجع للطابعة
         ></h1>
         <motion.p
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
-          className="text-xl text-gray-400 leading-8 font-bold"
+          className={`text-xl  text-gray-400 leading-9 font-bold ${styles.description}`}
         >
           يُعدّ منهج الرياضيات للصف الثاني الابتدائي رحلة ممتعة تهدف إلى تنمية
           مهارات الطلاب في التفكير المنطقي وحل المشكلات. يُغطّي المنهج مجموعة

@@ -21,7 +21,7 @@ const NavItem = () => {
     
           `}
         >
-          <Link className="font-bold" href={link.url}>
+          <Link className="font-bold text-sm" href={link.url}>
             {link.itemContent}
           </Link>
         </li>

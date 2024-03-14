@@ -43,7 +43,6 @@ const Navbar = () => {
 
         {/* Search Icon, Search Input, and Toggle Icon */}
         <div className={styles.layoutIcons}>
-     
           <ToggleIcon />
         </div>
       </nav>

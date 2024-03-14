@@ -11,10 +11,9 @@ export const useLinks = () => useContext(LinksContext);
 export default function LinksProvider({ children }) {
   const [links] = useState([
     { id: 1, itemContent: "الرئيسية🛖", url: "/" },
-    { id: 1, itemContent: "📒الفصل الاول", url: "/part1" },
-    { id: 2, itemContent: "📖الفصل الثاني", url: "/part2" },
-    { id: 3, itemContent: "🧾الفصل الثالث", url: "/part3" },
-    { id: 4, itemContent: "📑الفصل الرابع", url: "/part4" },
+    { id: 2, itemContent: "الترم الاول📖", url: "/part1" },
+    { id: 3, itemContent: "الترم الثاني📖", url: "/part2" },
+    { id: 6, itemContent: "الاختبار النهائي📑", url: "/final" },
   ]);
 
   return (
