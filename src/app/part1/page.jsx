@@ -4,7 +4,7 @@ function PartOne() {
   return (
     <section
       className={
-        "container grid px-5 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 justify-center gap-4 w-11/12 mx-auto items-center "
+        "container grid px-5 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 justify-center gap-x-24 gap-y-5 w-11/12 mx-auto items-center my-4 "
       }
     >
       <Card
@@ -19,7 +19,7 @@ function PartOne() {
         info={
           "في هذه الوحدة يتم دراسة عدة مفاهيم مثل  الحركة والتوقف والتصادم  "
         }
-        urlImage={"/images/unitTwo.png"}
+        urlImage={"/images/unit-two-term1.jpg"}
         title={"الذهاب للوحدة الثانية"}
         urlLink={"/part1/unitTwo"}
       />
