@@ -44,16 +44,19 @@ export default function Quiz() {
                 </p>
                 <select
                   className="cursor-pointer w-full px-4 py-2 rounded border border-gray-300 focus:border-blue-500 
-                  font-bold text-xl
+                  font-bold text-xl sm:text-sm md:text-sm
                   focus:outline-none"
                   onChange={(e) => handleSelect(q.id, e.target.value)}
                 >
-                  <option className="bg-black text-white " value="">
+                  <option
+                    className="bg-black text-white text-lg sm:text-sm md:text-sm "
+                    value=""
+                  >
                     اختر الإجابة
                   </option>
                   {q.options.map((option, index) => (
                     <option
-                      className="cursor-pointer bg-stone-200"
+                      className="cursor-pointer bg-stone-200 text-lg sm:text-sm md:text-sm"
                       key={index}
                       value={option}
                     >
