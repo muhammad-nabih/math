@@ -3,7 +3,7 @@ export const lessons = [
     lessonNumber: 1,
     lessonTitle: ` اكتشاف الحركة`,
     lessonContent: (
-      <ul className="ml-6 w-12/12">
+      <ul className="ml-6 w-full">
         <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
           ماذا يعني أن يتحرك شيء ما؟
         </li>
@@ -44,7 +44,7 @@ export const lessons = [
     lessonNumber: 2,
     lessonTitle: ` قياس السرعة`,
     lessonContent: (
-      <ul className="ml-6 w-12/12">
+      <ul className="ml-6 w-full">
         <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
           ما هي السرعة؟
         </li>
@@ -91,7 +91,7 @@ export const lessons = [
     lessonNumber: 3,
     lessonTitle: ` القوى المؤثرة على الحركة`,
     lessonContent: (
-      <ul className="ml-6 w-12/12">
+      <ul className="ml-6 w-full">
         <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
           تعريف القوة: تأثير يدفع أو يسحب جسمًا ما
         </li>
@@ -135,7 +135,7 @@ export const lessons = [
     lessonNumber: 4,
     lessonTitle: ` توقف الأجسام`,
     lessonContent: (
-      <ul className="ml-6 w-12/12">
+      <ul className="ml-6 w-full">
         <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
           ما الذي يجعل الجسم يتوقف؟
         </li>
@@ -182,7 +182,7 @@ export const lessons = [
     lessonNumber: 5,
     lessonTitle: ` طاقة الحركة`,
     lessonContent: (
-      <ul className="ml-6 w-12/12">
+      <ul className="ml-6 w-full">
         <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
           ما هي طاقة الحركة؟
         </li>
@@ -229,7 +229,7 @@ export const lessons = [
     lessonNumber: 6,
     lessonTitle: `طاقة الوضع`,
     lessonContent: (
-      <ul className="ml-6 w-12/12">
+      <ul className="ml-6 w-full">
         <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
           ما هي طاقة الوضع؟
         </li>
@@ -265,7 +265,7 @@ export const lessons = [
     lessonNumber: 7,
     lessonTitle: ` العلاقة بين الطاقة والحركة`,
     lessonContent: (
-      <ul className="ml-6 w-12/12">
+      <ul className="ml-6 w-full">
         <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
           كيف تتحول الطاقة بين طاقة الحركة وطاقة الوضع؟
         </li>

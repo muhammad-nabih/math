@@ -7,7 +7,7 @@ const Content = () => {
         المحور الثاني{" "}
       </h1>
       <div className="p-6 ">
-        <div className="mb-8 bg-stone-950 px-5 w-8/12 mx-auto  rounded-lg p-2 ">
+        <div className="mb-8 bg-stone-950 px-5 w-full lg:w-8/12 md:w-11/12 sm:w-full mx-auto  rounded-lg p-2 ">
           <h2 className="text-xl text-blue-400 font-bold mb-6">
             الدرس الأول: تركيب الخلية
           </h2>
@@ -17,7 +17,7 @@ const Content = () => {
           <p>
             <strong className="text-yellow-400 ">أجزاء الخلية:</strong>
           </p>
-          <ul className=" ml-6 w-12/12">
+          <ul className=" ml-6 w-full">
             <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
               <strong className="text-yellow-400 ">غشاء الخلية:</strong> يحيط
               بالخلية ويحميها.
@@ -36,14 +36,14 @@ const Content = () => {
             </li>
           </ul>
         </div>
-        <div className="mb-8 w-8/12 mx-auto bg-stone-950  rounded-lg p-2 ">
+        <div className="mb-8 w-full lg:w-8/12 md:w-11/12 sm:w-full mx-auto bg-stone-950  rounded-lg p-2 ">
           <h2 className="text-xl text-blue-400 font-bold mb-2">
             الدرس الثاني: وظائف الخلية
           </h2>
           <p>
             <strong className="text-yellow-400 ">وظائف الخلية:</strong>
           </p>
-          <ul className=" ml-6 w-12/12">
+          <ul className=" ml-6 w-full">
             <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
               التغذية: الحصول على المواد الغذائية من البيئة.
             </li>
@@ -65,7 +65,7 @@ const Content = () => {
               كيف تؤدي الخلايا هذه الوظائف؟
             </strong>
           </p>
-          <ul className=" ml-6 w-12/12">
+          <ul className=" ml-6 w-full">
             <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
               <strong className="text-yellow-400 ">التغذية:</strong> من خلال
               امتصاص المواد الغذائية من البيئة أو من خلال صنع الطعام عن طريق
@@ -89,7 +89,7 @@ const Content = () => {
             </li>
           </ul>
         </div>
-        <div className="mb-8 bg-stone-950 px-5 w-8/12 mx-auto  rounded-lg p-2 ">
+        <div className="mb-8 bg-stone-950 px-5 w-full lg:w-8/12 md:w-11/12 sm:w-full mx-auto  rounded-lg p-2 ">
           <h2 className="text-xl text-blue-400 font-bold mb-2">
             الدرس الثالث: نقل المواد عبر الغشاء البلازمي
           </h2>
@@ -102,7 +102,7 @@ const Content = () => {
               كيف تنتقل المواد عبر الغشاء البلازمي؟
             </strong>
           </p>
-          <ul className=" ml-6 w-12/12">
+          <ul className=" ml-6 w-full">
             <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
               <strong className="text-yellow-400 ">الانتشار:</strong> حركة
               المواد من منطقة ذات تركيز عالٍ إلى منطقة ذات تركيز منخفض.
@@ -122,7 +122,7 @@ const Content = () => {
             </li>
           </ul>
         </div>
-        <div className="mb-8 bg-stone-950 px-5 w-8/12 mx-auto  rounded-lg p-2 ">
+        <div className="mb-8 bg-stone-950 px-5 w-full lg:w-8/12 md:w-11/12 sm:w-full mx-auto  rounded-lg p-2 ">
           <h2 className="text-xl text-blue-400 font-bold mb-2">
             الدرس الرابع: انقسام الخلية
           </h2>
@@ -133,7 +133,7 @@ const Content = () => {
           <p>
             <strong className="text-yellow-400 ">أنواع انقسام الخلية:</strong>
           </p>
-          <ul className=" ml-6 w-12/12">
+          <ul className=" ml-6 w-full">
             <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
               <strong className="text-yellow-400 ">الانقسام الفتيلي:</strong>{" "}
               انقسام الخلية إلى خليتين متماثلتين.
@@ -147,7 +147,7 @@ const Content = () => {
           <p>
             <strong className="text-yellow-400 ">أهمية انقسام الخلية:</strong>
           </p>
-          <ul className=" ml-6 w-12/12">
+          <ul className=" ml-6 w-full">
             <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
               نمو الكائنات الحية.
             </li>

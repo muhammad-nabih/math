@@ -3,7 +3,7 @@ export const lessons = [
     lessonNumber: 1,
     lessonTitle: `تفتت الصخور بفعل عوامل التعرية:`,
     lessonContent: (
-      <ul className="ml-6 w-12/12">
+      <ul className="ml-6 w-full">
         <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
           <strong className="text-blue-300">
             تفتت الصخور بفعل عوامل التعرية:
@@ -40,7 +40,7 @@ export const lessons = [
     lessonNumber: 2,
     lessonTitle: `تكوين التربة من الصخور المتفتتة:`,
     lessonContent: (
-      <ul className="ml-6 w-12/12">
+      <ul className="ml-6 w-full">
         <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
           <strong className="text-blue-300">
             تكوين التربة من الصخور المتفتتة:
@@ -73,7 +73,7 @@ export const lessons = [
     lessonNumber: 3,
     lessonTitle: `تكوين الجبال بفعل حركة الصفائح التكتونية:`,
     lessonContent: (
-      <ul className="ml-6 w-12/12">
+      <ul className="ml-6 w-full">
         <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
           <strong className="text-blue-300">
             تكوين الجبال بفعل حركة الصفائح التكتونية:
@@ -104,7 +104,7 @@ export const lessons = [
     lessonNumber: 4,
     lessonTitle: `تكوين الوديان بفعل عوامل التعرية:`,
     lessonContent: (
-      <ul className="ml-6 w-12/12">
+      <ul className="ml-6 w-full">
         <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
           <strong className="text-blue-300">
             تكوين الوديان بفعل عوامل التعرية:
@@ -136,7 +136,7 @@ export const lessons = [
     lessonNumber: 5,
     lessonTitle: `تكوين السهول بفعل عوامل التعرية:`,
     lessonContent: (
-      <ul className="ml-6 w-12/12">
+      <ul className="ml-6 w-full">
         <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
           <strong className="text-blue-300">
             تكوين السهول بفعل عوامل التعرية:
@@ -166,7 +166,7 @@ export const lessons = [
     lessonNumber: 6,
     lessonTitle: `تكوين البراكين بفعل حركة الصفائح التكتونية:`,
     lessonContent: (
-      <ul className="ml-6 w-12/12">
+      <ul className="ml-6 w-full">
         <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
           <strong className="text-blue-300">
             تكوين البراكين بفعل حركة الصفائح التكتونية:
@@ -197,7 +197,7 @@ export const lessons = [
     lessonNumber: 7,
     lessonTitle: `تكوين الزلازل بفعل حركة الصفائح التكتونية:`,
     lessonContent: (
-      <ul className="ml-6 w-12/12">
+      <ul className="ml-6 w-full">
         <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
           <strong className="text-blue-300">
             تكوين الزلازل بفعل حركة الصفائح التكتونية:
@@ -227,7 +227,7 @@ export const lessons = [
     lessonNumber: 8,
     lessonTitle: `تكوين الأعاصير بفعل عوامل مناخية:`,
     lessonContent: (
-      <ul className="ml-6 w-12/12">
+      <ul className="ml-6 w-full">
         <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
           <strong className="text-blue-300">
             تكوين الأعاصير بفعل عوامل مناخية:
@@ -257,7 +257,7 @@ export const lessons = [
     lessonNumber: 9,
     lessonTitle: `تكوين الفيضانات بفعل عوامل مناخية:`,
     lessonContent: (
-      <ul className="ml-6 w-12/12">
+      <ul className="ml-6 w-full">
         <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
           <strong className="text-blue-300">
             تكوين الفيضانات بفعل عوامل مناخية:

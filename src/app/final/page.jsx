@@ -30,7 +30,7 @@ export default function Quiz() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-300 text-blue-900 ">
-      <div className="bg-white p-8 rounded shadow-md w-11/12">
+      <div className="bg-white p-8 rounded shadow-md w-full">
         <h1 className="text-3xl border-y-2 py-2  text-center bg-slate-200 font-bold mb-4">
           📋 اختبار الكتروني علي مادة العلوم الترم الاول والثاني
         </h1>
@@ -72,7 +72,7 @@ export default function Quiz() {
           </button>
         </form>
         {result !== null && (
-          <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black bg-opacity-80 p-8 rounded-lg text-center text-white text-3xl font-bold border-yellow-400 border-5 border border-solid transition-opacity duration-300 opacity-100">
+          <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black bg-opacity-90 p-8 rounded-lg text-center text-white text-3xl font-bold border-yellow-400 border-5 border border-solid transition-opacity duration-300 opacity-100">
             <strong className="text-blue-400">نتيجتك:</strong>
             <span className="text-yellow-600 mx-2"> {result} </span>
             من

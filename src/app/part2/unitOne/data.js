@@ -3,7 +3,7 @@ export const lessons = [
     lessonNumber: 1,
     lessonTitle: ` تعريف الأجهزة:`,
     lessonContent: (
-      <ul className="ml-6 w-12/12">
+      <ul className="ml-6 w-full">
         <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
           <strong className="text-blue-300">تعريف الأجهزة:</strong>
           الأجهزة هي أدوات أو أجهزة تقنية تستخدم لأغراض مختلفة، مثل الاتصالات،
@@ -37,7 +37,7 @@ export const lessons = [
     lessonNumber: 2,
     lessonTitle: `التكنولوجيا الحديثة:`,
     lessonContent: (
-      <ul className="ml-6 w-12/12">
+      <ul className="ml-6 w-full">
         <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
           <strong className="text-blue-300">تطور التكنولوجيا:</strong>
           شهدت التكنولوجيا تقدمًا كبيرًا في السنوات الأخيرة، حيث أصبحت الأجهزة
@@ -61,7 +61,7 @@ export const lessons = [
     lessonNumber: 3,
     lessonTitle: `الأمان والخصوصية:`,
     lessonContent: (
-      <ul className="ml-6 w-12/12">
+      <ul className="ml-6 w-full">
         <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
           <strong className="text-blue-300">أهمية الأمان والخصوصية:</strong>
           مع تزايد استخدام التكنولوجيا في حياتنا اليومية، أصبح الأمان والخصوصية
@@ -86,7 +86,7 @@ export const lessons = [
     lessonNumber: 4,
     lessonTitle: `التواصل والشبكات:`,
     lessonContent: (
-      <ul className="ml-6 w-12/12">
+      <ul className="ml-6 w-full">
         <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
           <strong className="text-blue-300">أساسيات الشبكات:</strong>
           تعتمد التكنولوجيا المعاصرة بشكل كبير على الشبكات، سواء كانت شبكات
@@ -110,7 +110,7 @@ export const lessons = [
     lessonNumber: 4,
     lessonTitle: `تعريف مصادر الطاقة المتجددة:`,
     lessonContent: (
-      <ul className="ml-6 w-12/12">
+      <ul className="ml-6 w-full">
         <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
           <strong className="text-blue-300">
             تعريف مصادر الطاقة المتجددة:
@@ -172,7 +172,7 @@ export const lessons = [
     lessonNumber: 5,
     lessonTitle: `تعريف الطاقة الشمسية:`,
     lessonContent: (
-      <ul className="ml-6 w-12/12">
+      <ul className="ml-6 w-full">
         <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
           <strong className="text-blue-300">تعريف الطاقة الشمسية:</strong>
           الطاقة الشمسية هي الطاقة التي يتم استخراجها من ضوء الشمس وتحولها إلى
@@ -211,7 +211,7 @@ export const lessons = [
     lessonNumber: 6,
     lessonTitle: `تعريف طاقة الرياح:`,
     lessonContent: (
-      <ul className="ml-6 w-12/12">
+      <ul className="ml-6 w-full">
         <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
           <strong className="text-blue-300">تعريف طاقة الرياح:</strong>
           طاقة الرياح هي الطاقة التي تتمثل في حركة الهواء (الرياح) وتحولها إلى
@@ -248,7 +248,7 @@ export const lessons = [
     lessonNumber: 7,
     lessonTitle: `تعريف الطاقة المائية:`,
     lessonContent: (
-      <ul className="ml-6 w-12/12">
+      <ul className="ml-6 w-full">
         <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
           <strong className="text-blue-300">تعريف الطاقة المائية:</strong>
           الطاقة المائية هي الطاقة التي يتم استخراجها من حركة المياه، سواء كانت
@@ -288,7 +288,7 @@ export const lessons = [
     lessonNumber: 8,
     lessonTitle: `تعريف الطاقة الحرارية الأرضية:`,
     lessonContent: (
-      <ul className="ml-6 w-12/12">
+      <ul className="ml-6 w-full">
         <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
           <strong className="text-blue-300">
             تعريف الطاقة الحرارية الأرضية:
@@ -326,7 +326,7 @@ export const lessons = [
     lessonNumber: 9,
     lessonTitle: `تعريف الطاقة الكيميائية:`,
     lessonContent: (
-      <ul className="ml-6 w-12/12">
+      <ul className="ml-6 w-full">
         <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
           <strong className="text-blue-300">تعريف الطاقة الكيميائية:</strong>
           الطاقة الكيميائية هي الطاقة المخزنة في الروابط الكيميائية للمواد،
@@ -362,7 +362,7 @@ export const lessons = [
     lessonNumber: 10,
     lessonTitle: `تعريف طاقة الأمواج:`,
     lessonContent: (
-      <ul className="ml-6 w-12/12">
+      <ul className="ml-6 w-full">
         <li className="py-2 my-3 bg-stone-800 px-2 rounded-xl ">
           <strong className="text-blue-300">تعريف طاقة الأمواج:</strong>
           طاقة الأمواج هي الطاقة التي يتم استخراجها من حركة الأمواج في المحيطات
