@@ -29,7 +29,7 @@ const Aside = () => {
         </ul>
         {/* footer */}
         <footer className={`${styles.footer} text-2xl `}>
-          مقرر مادة الرياضيات الصف الثاني الابتدائي
+          مقرر مادة العلوم الصف الرابع الابتدائي
         </footer>
       </div>
     </aside>

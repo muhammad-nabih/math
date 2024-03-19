@@ -6,15 +6,14 @@ import LinksProvider from "@/contexts/linksContexts/LinksContext";
 // Context Provider import
 import AsideProvider from "@/contexts/asideContext/AsideContext";
 
-
 const Noto = Noto_Kufi_Arabic({
   subsets: ["arabic"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 export const metadata = {
-  title: "الرياضيات",
-  description: "مادة الرياضيات ",
+  title: "العلوم ",
+  description: "مادة العلوم الصف الرابع الابتدائي ",
 };
 
 export default function RootLayout({ children }) {
