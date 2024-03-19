@@ -31,7 +31,7 @@ export default function Quiz() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-300 text-blue-900 ">
       <div className="bg-white p-8 rounded shadow-md w-full">
-        <h1 className="text-3xl border-y-2 py-2  text-center bg-slate-200 font-bold mb-4">
+        <h1 className="text-2xl sm:text-sm md:text-sm lg:text-lg border-y-2 py-2  text-center bg-slate-200 font-bold mb-4 ">
           📋 اختبار الكتروني علي مادة العلوم الترم الاول والثاني
         </h1>
         <form onSubmit={onSubmit}>
